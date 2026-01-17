@@ -22,15 +22,15 @@ const OrderForm = () => {
     };
 
     return (
-        <section id='order-form' className="bg-[#0d0625] min-h-screen flex flex-col items-center py-16 px-4 text-white font-[roboto-font] font-extrabold">
+        <section id='order-form' className="bg-[#0d0625] min-h-screen flex flex-col items-center py-16 px-4 text-white open-sans font-extrabold">
             <div className="text-center mb-10">
                 <span className="bg-[#792b71] px-6 py-1 rounded-full text-2xl font-extrabold font-[roboto-font] uppercase tracking-wider shadow-[0_0_15px_#ff46ff]">
                     Special Offer
                 </span>
 
-                <h2 className="text-2xl md:text-5xl font-bold mt-4 flex flex-col items-center justify-center gap-2 text-center">
+                <h2 className="text-2xl md:text-5xl font-bold  mt-4 flex flex-col items-center justify-center gap-2 text-center">
                     {/* First Line */}
-                    <div className="flex flex-wrap items-center justify-center gap-2">
+                    <div className="flex flex-wrap  items-center justify-center gap-2">
                         Buy Now at
                         <span className="bg-[#ffff00] text-black px-3 py-1 rounded-full shadow-[0_0_20px_rgba(250,204,21,0.6)]">
                             1490 ৳
@@ -132,7 +132,7 @@ const OrderForm = () => {
             <div className="mt-16 text-center">
                 <h4 className="text-2xl font-bold mb-4">Contact Us</h4>
                 <div className="flex justify-center">
-                    <a href="https://www.facebook.com/share/1AQctWLfn6/" className="bg-white p-2 rounded-full hover:scale-110 transition">
+                    <a href="https://www.facebook.com/share/1AQctWLfn6/" className="bg-white p-1 rounded-full hover:scale-110 transition">
                         <img src="facebook.png" alt="Facebook" className="w-8 h-8" />
                     </a>
                 </div>
