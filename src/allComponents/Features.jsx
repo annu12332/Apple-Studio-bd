@@ -12,7 +12,7 @@ const Features = () => {
                         <img 
                             src="keyboard2.png" 
                             alt="Light Blue Keyboard" 
-                            className="w-[320px] md:w-[500px] lg:w-[620px] max-w-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)]"
+                            className="hidden md:block lg:block max-w-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)]"
                         />
                     </div>
                 </div>
