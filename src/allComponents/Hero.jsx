@@ -21,12 +21,12 @@ const Hero = () => {
                 </p>
 
                 <div className="pt-6">
-                    <button className="btn rounded-full px-5 md:px-7 py-1 text-white border-2 md:border-3 border-[#7C83D3] bg-[#7a85D0] font-[roboto-bold] text-[20px] md:text-[25px] lg:text-[30px] min-h-0 h-9 md:h-12 
+                    <a href="#order-form"  className="btn rounded-full px-5 md:px-7 py-1 text-white border-2 md:border-3 border-[#7C83D3] bg-[#7a85D0] font-[roboto-bold] text-[20px] md:text-[25px] lg:text-[30px] min-h-0 h-9 md:h-12 
     shadow-[0_0px_15px_4px_rgba(124,131,211,0.8)] 
     hover:shadow-[0_0px_15px_9px_rgba(14,10,111,0.8)] 
     transition-all duration-300">
                         Buy Now
-                    </button>
+                    </a>
                 </div>
             </div>
 

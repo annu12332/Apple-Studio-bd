@@ -59,7 +59,7 @@ const ProductSpecs = () => {
           </div>
 
           <div className="lg:absolute lg:-bottom-30 lg:left-1/2 lg:-translate-x-1/2 bg-[#74a9c6]/90 backdrop-blur-md p-5 rounded-2xl w-full lg:w-[350px] text-center shadow-2xl border border-white/10 col-span-1 md:col-span-2">
-            <div className="flex items-center justify-center gap-2 mb-2">
+            <div className="flex items-center justify-baseline gap-2 mb-2">
               <span className="bg-[#3f1355] p-2 rounded-full text-xs">🔄</span>
               <h3 className="font-bold text-sm md:text-base">Portability</h3>
             </div>

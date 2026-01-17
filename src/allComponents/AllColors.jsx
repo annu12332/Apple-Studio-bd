@@ -2,11 +2,11 @@ import React from 'react';
 
 const AllColors = () => {
     const keyboards = [
-        { id: 1, src: 'bluewhite.png', rotate: 'rotate-[115deg]', yPos: 'translate-y-8' },
+        { id: 1, src: 'bluewhite.png', rotate: 'rotate-[-70deg]', yPos: 'translate-y-8' },
         { id: 2, src: 'light-yellow.png', rotate: '-rotate-[90deg]', yPos: '-translate-y-12' },
         { id: 3, src: 'yellowwhite.png', rotate: '-rotate-[70deg]', yPos: 'translate-y-14' },
         { id: 4, src: 'light-pink.png', rotate: '-rotate-[95deg]', yPos: '-translate-y-10' },
-        { id: 5, src: 'bluewhite.png', rotate: '-rotate-[75deg]', yPos: 'translate-y-6' },
+        { id: 5, src: 'sky-blue.png', rotate: 'rotate-[90deg]', yPos: 'translate-y-6' },
         { id: 6, src: 'light-purple.png', rotate: '-rotate-[90deg]', yPos: '-translate-y-4' },
     ];
 
