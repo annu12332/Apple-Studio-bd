@@ -14,7 +14,7 @@ const AllColors = () => {
         <section className="relative w-full py-20 bg-[#0b0a24] overflow-hidden text-center text-white">
             
             <div className="relative z-20 px-4 mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-[0_0_18px_rgba(255,255,255,0.75)]">
+                <h2 className="text-4xl font-[roboto-font] md:text-5xl font-bold mb-4 drop-shadow-[0_0_18px_rgba(255,255,255,0.75)]">
                     Express Yourself with Color
                 </h2>
                 <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto font-bold opacity-90">

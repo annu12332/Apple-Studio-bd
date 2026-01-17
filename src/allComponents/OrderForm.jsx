@@ -13,28 +13,40 @@ const OrderForm = () => {
             form.current,
             'GiS0v97rE_KzChhB_'
         )
-        .then((result) => {
-            alert("Order successfully sent!");
-            form.current.reset();
-        }, (error) => {
-            alert("Failed to send order: " + error.text);
-        });
+            .then((result) => {
+                alert("Order successfully sent!");
+                form.current.reset();
+            }, (error) => {
+                alert("Failed to send order: " + error.text);
+            });
     };
-    
+
     return (
-        <section className="bg-[#0b0a24] min-h-screen flex flex-col items-center py-16 px-4 text-white font-sans">
+        <section className="bg-[#0d0625] min-h-screen flex flex-col items-center py-16 px-4 text-white font-[roboto-font] font-extrabold">
             <div className="text-center mb-10">
-                <span className="bg-[#ff46ff] px-6 py-1 rounded-full text-lg font-bold uppercase tracking-wider shadow-[0_0_15px_#ff46ff]">
+                <span className="bg-[#792b71] px-6 py-1 rounded-full text-2xl font-extrabold font-[roboto-font] uppercase tracking-wider shadow-[0_0_15px_#ff46ff]">
                     Special Offer
                 </span>
-                
-                <h2 className="text-2xl md:text-3xl font-bold mt-4 flex flex-wrap items-center justify-center gap-2">
-                    Buy Now at
-                    <span className="bg-yellow-400 text-black px-3 py-1 rounded-full shadow-[0_0_20px_rgba(250,204,21,0.6)]">
-                        1490 ৳
-                    </span>
-                    & Get  Free Home Delivery
-                    <img className="h-[90px] w-[90px] object-contain inline-block" src="delivery.png" alt="delivery" />
+
+                <h2 className="text-2xl md:text-5xl font-bold mt-4 flex flex-col items-center justify-center gap-2 text-center">
+                    {/* First Line */}
+                    <div className="flex flex-wrap items-center justify-center gap-2">
+                        Buy Now at
+                        <span className="bg-[#ffff00] text-black px-3 py-1 rounded-full shadow-[0_0_20px_rgba(250,204,21,0.6)]">
+                            1490 ৳
+                        </span>
+                        & Get
+                    </div>
+
+                    {/* Second Line */}
+                    <div className="flex items-center justify-center gap-2">
+                        Free Home Delivery
+                        <img
+                            className="h-[50px] w-[50px] md:h-[90px] md:w-[90px] object-contain"
+                            src="delivery.png"
+                            alt="delivery"
+                        />
+                    </div>
                 </h2>
             </div>
 
@@ -46,7 +58,7 @@ const OrderForm = () => {
                         <input
                             type="text"
                             name="name"
-                            className="w-full bg-[#d1d5db] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition shadow-inner"
+                            className="w-full bg-[#d9d9d9] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition shadow-inner"
                             placeholder="Enter your name"
                             required
                         />
@@ -57,7 +69,7 @@ const OrderForm = () => {
                         <input
                             type="email"
                             name="email"
-                            className="w-full bg-[#d1d5db] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                            className="w-full bg-[#d9d9d9] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                             placeholder="Enter your email"
                             required
                         />
@@ -68,7 +80,7 @@ const OrderForm = () => {
                         <input
                             type="tel"
                             name="phone"
-                            className="w-full bg-[#d1d5db] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                            className="w-full bg-[#d9d9d9] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                             placeholder="Enter your phone number"
                             required
                         />
@@ -79,7 +91,7 @@ const OrderForm = () => {
                         <input
                             type="text"
                             name="address"
-                            className="w-full bg-[#d1d5db] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                            className="w-full bg-[#d9d9d9] text-black py-3 px-4 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                             placeholder="Enter your full address"
                             required
                         />
@@ -108,7 +120,7 @@ const OrderForm = () => {
                     <div className="pt-4">
                         <button
                             type="submit"
-                            className="bg-gradient-to-r from-[#6a82fb] to-[#fc5c7d] hover:from-[#5a72eb] hover:to-[#ec4c6d] text-white font-bold py-3 px-10 rounded-2xl shadow-[0_0_20px_rgba(106,130,251,0.5)] transition duration-300 transform hover:scale-105"
+                            className="bg-[#7a85d0] text-2xl text-white font-bold py-3 px-10 rounded-2xl shadow-[0_0_20px_rgba(106,130,251,0.5)] transition duration-300 transform hover:scale-105"
                         >
                             Submit Order
                         </button>

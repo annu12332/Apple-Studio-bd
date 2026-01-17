@@ -11,7 +11,7 @@ const Hero = () => {
                     Say Goodbye to Bulky Typing
                 </p>
 
-                <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-extrabold lg:whitespace-nowrap [text-shadow:0_0px_6px_rgba(0,0,0,0.7),0_1px_6px_rgba(255,255,255,0.85),0_4px_20px_rgba(255,255,255,0.65)]">
+                <h1 className="text-white text-3xl sm:text-3xl md:text-4xl font-extrabold lg:whitespace-nowrap [text-shadow:0_0px_6px_rgba(0,0,0,0.7),0_1px_6px_rgba(255,255,255,0.85),0_4px_20px_rgba(255,255,255,0.65)]">
                     Fortify MagSafe Wireless Keyboard
                 </h1>
 

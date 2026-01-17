@@ -2,7 +2,7 @@ import React from 'react';
 
 const Features = () => {
     return (
-        <section className="relative w-full min-h-screen lg:min-h-[650px] bg-[#050510] overflow-hidden flex items-center py-16 lg:py-0">
+        <section className="relative w-full min-h-screen lg:min-h-[650px] bg-[#0d0625] overflow-hidden flex items-center py-16 lg:py-0">
             <div className="absolute top-0 right-0 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-indigo-900/20 blur-[80px] md:blur-[130px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
 
             <div className="flex flex-col lg:flex-row w-full items-center max-w-7xl mx-auto">
@@ -40,7 +40,7 @@ const Features = () => {
                     </div>
 
                     <div className="flex items-center md:pl-6 lg:pl-10">
-                        <h3 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] tracking-tighter text-left bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]">
+                        <h3 className="text-5xl md:text-6xl lg:text-7xl font-[roboto-font] font-black leading-[1.05] tracking-tighter text-left bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]">
                             Supports <br />
                             iOS/iPad <br />
                             OS <br />
