@@ -22,9 +22,9 @@ const OrderForm = () => {
     };
 
     return (
-        <section id='order-form' className="bg-[#0d0625]  flex flex-col items-center py-16 px-4 text-white open-sans font-extrabold">
-            <div className="text-center mb-1">
-                <span className="bg-[#792b71] px-6 py-1 rounded-full text-2xl font-extrabold font-[roboto-font] uppercase tracking-wider shadow-[0_0_15px_#ff46ff]">
+        <section id='order-form' className="bg-[#0d0625]  flex flex-col items-center py-16 px-4 mt-[-40px] text-white open-sans font-extrabold mt">
+            <div className="text-center mb-0">
+                <span className="bg-[#792b71] px-6 py-1 rounded-full text-lg md:text-2xl font-extrabold  uppercase tracking-wider shadow-[0_0_15px_#ff46ff]">
                     Special Offer
                 </span>
 
