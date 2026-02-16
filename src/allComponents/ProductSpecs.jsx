@@ -2,9 +2,9 @@ import React from 'react';
 
 const ProductSpecs = () => {
   return (
-    <section className="bg-[#0d0625] text-white py-12 md:py-24 px-4 md:px-6 relative overflow-hidden font-sans">
+    <section className="bg-[#0d0625] text-white py-12 md:py-10 px-4 md:px-6 relative overflow-hidden font-sans">
       <div className="text-center mb-1 md:mb-1 relative z-30">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 mt-1 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-0 mt-[-50px] drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]">
           Fortify MagSafe Specifications
         </h2>
       </div>
@@ -58,7 +58,7 @@ const ProductSpecs = () => {
             <p className="text-xs md:text-sm leading-snug">Compact 78-key (with function keys).</p>
           </div>
 
-          <div className="lg:absolute lg:-bottom-30 lg:left-1/2 lg:-translate-x-1/2 bg-[#74a9c6]/90 backdrop-blur-md p-5 rounded-2xl w-full lg:w-[350px] text-center shadow-2xl border border-white/10 col-span-1 md:col-span-2">
+          <div className="lg:absolute lg:-bottom-20 lg:left-1/2 lg:-translate-x-1/2 bg-[#74a9c6]/90 backdrop-blur-md p-5 rounded-2xl w-full lg:w-[350px] text-center shadow-2xl border border-white/10 col-span-1 md:col-span-2">
             <div className="flex items-center justify-baseline gap-2 mb-2">
               <span className="bg-[#3f1355] p-2 rounded-full text-xs">🔄</span>
               <h3 className="font-bold text-sm md:text-base">Portability</h3>
@@ -67,12 +67,12 @@ const ProductSpecs = () => {
           </div>
         </div>
 
-        <div className="lg:absolute lg:left-0 lg:top-[20%] text-center lg:-rotate-12 z-30 mt-12 lg:mt-0 flex flex-col items-center w-full lg:w-auto">
+        <div className="lg:absolute lg:left-0 lg:top-[20%] text-center lg:-rotate-12 z-30 mt-3 lg:mt-0 flex flex-col items-center w-full lg:w-auto">
           <div className="relative inline-block">
             <h1 className='text-2xl text-[#fffbd9] font-bold'>Now<span className="bg-[#f463e5] px-3 py-1 rounded-full font-bold text-sm md:text-2xl shadow-[0_0_30px_#ff46ff] text-[#fffbd9]">
               20%
             </span>Cheaper</h1>
-            <p className="text-4xl md:text-6xl font-extrabold mt-6 text-[#fffbd9] drop-shadow-[0_0_10px_rgba(255,70,255,1)] [text-shadow:0_0_20px_rgba(255,70,255,0.6),0_0_40px_rgba(255,70,255,0.4)]">
+            <p className="text-4xl md:text-6xl font-extrabold mt-3 text-[#fffbd9] drop-shadow-[0_0_10px_rgba(255,70,255,1)] [text-shadow:0_0_20px_rgba(255,70,255,0.6),0_0_40px_rgba(255,70,255,0.4)]">
               1490 Tk
             </p>
           </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <section className="relative w-full h-[650px] overflow-hidden bg-black flex items-center">
+        <section className="relative w-full h-[350px] md:min-h-screen overflow-hidden bg-black flex items-center">
             {/* Background Image Layer */}
             <div className="absolute inset-0 z-0">
                 <img
@@ -17,7 +17,7 @@ const Banner = () => {
             {/* Main Content Container */}
             <div className="container mx-auto px-6 md:px-12 relative z-10 text-white">
                 <div className="max-w-2xl">
-                    <h1 className="text-white text-3xl md:text-5xl lg:text-6xl  font-[roboto-bold] lg:whitespace-nowrap
+                    <h1 className="text-white text-3xl md:text-5xl lg:text-6xl  font-bold lg:whitespace-nowrap
 [text-shadow:0_0px_8px_rgba(0,0,0,0.7),0_1px_6px_rgba(255,255,255,0.85),0_2px_5px_rgba(255,255,255,0.65)]">
                         Type Anywhere, In Style <br />
                         Slim Design with Vibrant Colors
