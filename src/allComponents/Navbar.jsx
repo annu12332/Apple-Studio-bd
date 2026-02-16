@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 
 const Navbar = () => {
+    const { scrollY } = useScroll();
+    const [hidden, setHidden] = useState(false);
+
+    useMotionValueEvent(scrollY, "change", (latest) => {
+        const previous = scrollY.getPrevious();
+        if (latest > previous && latest > 150) {
+            setHidden(true);
+        } else {
+            setHidden(false);
+        }
+    });
+
     return (
-        <div className=" top-0 z-[100] w-full ">
+        <motion.div 
+            variants={{
+                visible: { y: 0 },
+                hidden: { y: "-100%" },
+            }}
+            animate={hidden ? "hidden" : "visible"}
+            transition={{ duration: 0.35, ease: "easeInOut" }}
+            className="top-0 z-[100] w-full sticky"
+        >
             <div className="navbar bg-[#130830] shadow-sm px-2 md:px-4 lg:px-10">
                 <div className="navbar-start">
                     <div>
-                        <img className='h-[30px] md:h-[60px] lg:h-[70px]  ' src={"logo.jpg"} alt="logo" />
+                        <img className='h-[30px] md:h-[60px] lg:h-[70px]' src={"logo.jpg"} alt="logo" />
                     </div>
                 </div>
 
@@ -19,7 +40,7 @@ const Navbar = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
